@@ -1,0 +1,152 @@
+{
+  "algorithm_config": {
+    "environment": "synthetic_synthetic",
+    "runs": 10,
+    "samples": 10000,
+    "pilot_samples": 800,
+    "pilot_ratio_rounds": 5,
+    "online_ratio_rounds": [
+      5
+    ],
+    "burn_in": 1000,
+    "plot_every": 20,
+    "seed": 30000,
+    "gamma": 0.95,
+    "feature_dim": 5,
+    "target_epsilon": 0.0,
+    "mixing_diagonal": 0.8,
+    "sptd_alpha_constant": 0.02,
+    "sptd_alpha_decay0": 7.0,
+    "tdc_alpha_constant": 0.02,
+    "tdc_alpha_decay0": 7.0,
+    "tdc_beta_constant": 0.0002,
+    "tdc_beta_decay0": 0.07,
+    "require_pilot_bound": false
+  },
+  "environment_seed": 20210501,
+  "target_noise_std": 0.05,
+  "network": "ring",
+  "network_matrix": [
+    [
+      0.8,
+      0.1,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1
+    ],
+    [
+      0.1,
+      0.8,
+      0.1,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.1,
+      0.8,
+      0.1,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.1,
+      0.8,
+      0.1,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.8,
+      0.1,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.8,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.8,
+      0.1,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.8,
+      0.1,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.8,
+      0.1
+    ],
+    [
+      0.1,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.8
+    ]
+  ],
+  "note": "Section 5.1 environment; each local ratio is communicated for finite rounds."
+}

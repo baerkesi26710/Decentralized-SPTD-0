@@ -1,0 +1,24 @@
+{
+  "environment": "cliff",
+  "runs": 10,
+  "samples": 10000,
+  "pilot_samples": 500,
+  "pilot_ratio_rounds": 7,
+  "online_ratio_rounds": [
+    7
+  ],
+  "burn_in": 1000,
+  "plot_every": 20,
+  "seed": 1000,
+  "gamma": 0.95,
+  "feature_dim": 8,
+  "target_epsilon": 0.8,
+  "mixing_diagonal": 0.7,
+  "sptd_alpha_constant": 0.005,
+  "sptd_alpha_decay0": 10.0,
+  "tdc_alpha_constant": 0.005,
+  "tdc_alpha_decay0": 10.0,
+  "tdc_beta_constant": 5e-05,
+  "tdc_beta_decay0": 0.1,
+  "require_pilot_bound": false
+}

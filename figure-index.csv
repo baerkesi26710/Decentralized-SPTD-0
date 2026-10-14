@@ -1,0 +1,7 @@
+﻿Manuscript figure,Notebook (zero-based cell indices),Archived data folder,Compound artwork,Aggregation
+Figure 1,"sensitivity cells 7, 15",preconditioner_sensitivity_result,Ma-Figure-1.pdf,Median of 20 runs
+Figure 2,"convergence cells 10, 28",synthetic_fully_connected_result,Ma-Figure-2.pdf,Mean of 10 runs
+Figure 3,"convergence cells 10, 28",synthetic_ring_result,Ma-Figure-3.pdf,Mean of 10 runs
+Figure 4 (original Figures 4+5),"convergence cells 10, 14, 16",individual_unstable_two_state_result,Ma-Figure-4.pdf,Mean of 10 runs
+Figure S2,"convergence cells 10, 14, 16",individual_cliff_result,Ma-Figure-S2.pdf,Constant; mean of 10 runs
+Figure S3,"convergence cells 10, 14, 16",individual_cliff_result,Ma-Figure-S3.pdf,Diminishing; mean of 10 runs

@@ -1,0 +1,24 @@
+{
+  "environment": "unstable_two_state",
+  "runs": 10,
+  "samples": 10000,
+  "pilot_samples": 999,
+  "pilot_ratio_rounds": 7,
+  "online_ratio_rounds": [
+    7
+  ],
+  "burn_in": 1000,
+  "plot_every": 20,
+  "seed": 1000,
+  "gamma": 0.95,
+  "feature_dim": 1,
+  "target_epsilon": 0.8,
+  "mixing_diagonal": 0.7,
+  "sptd_alpha_constant": 0.002,
+  "sptd_alpha_decay0": 3.0,
+  "tdc_alpha_constant": 0.002,
+  "tdc_alpha_decay0": 3.0,
+  "tdc_beta_constant": 0.01,
+  "tdc_beta_decay0": 6.0,
+  "require_pilot_bound": false
+}

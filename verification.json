@@ -1,0 +1,14 @@
+{
+  "npz_sha256": {
+    "data\\individual_cliff_result\\raw_trajectories.npz": "1ed72b01b18a1cb38bdab60f49401c412e26a561a9ec9d8c0f13e57731e8084b",
+    "data\\individual_unstable_two_state_result\\raw_trajectories.npz": "d1eb0006953874a7455537b7e317ad6a6cff10228990b08896b4dcc72f0b4453",
+    "data\\preconditioner_sensitivity_result\\raw_preconditioner_sensitivity.npz": "590b1822fb014142ebb9f68ce0d8a32764eda849f739b253d7e46228fbd235f0",
+    "data\\synthetic_fully_connected_result\\raw_trajectories.npz": "adf0533006ad600cf0b7048ef15c0df4c5972740e06b251db27dd2541d41aebe",
+    "data\\synthetic_ring_result\\raw_trajectories.npz": "25825ffcdf0af01db9560681e993b3e019ab6ba130217bffdfe32e6a32d2503d"
+  },
+  "plotting_only": true,
+  "main_figures": 4,
+  "supplementary_convergence_figures": 2,
+  "raster_export_dpi": 800,
+  "note": "Original numerical results and plot limits retained. PDF contains vector paths and embedded fonts."
+}

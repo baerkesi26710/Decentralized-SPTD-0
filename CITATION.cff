@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and the archived code/data release when using these files."
+type: software
+title: "Decentralized SPTD(0)"
+authors:
+  - family-names: Ma
+    given-names: Jiahua
+version: "1.0.0"
+repository-code: "https://github.com/baerkesi26710/Decentralized-SPTD-0"
+url: "https://github.com/baerkesi26710/Decentralized-SPTD-0"
